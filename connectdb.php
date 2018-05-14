@@ -1,8 +1,8 @@
 <?php # connectdb.php
-$host = "localhost";
-$dbname="carent";
-$username = "root";
-$password = "";
+$host = "db4free.net";
+$dbname="laraclub";
+$username = "wangh25";
+$password = "d9267123";
 // Creates a PDO object called $db and establishes the MySQL database connection
 try{
 	$db = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
